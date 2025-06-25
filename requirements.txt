@@ -1,0 +1,41 @@
+# Core Data & ML
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.4.2
+xverse==1.0.5
+
+- woe==0.1.9
+woe==0.1.4
+
+
+# Model Evaluation
+imbalanced-learn==0.12.2
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# ML Tracking & Pipelines
+mlflow==2.12.1
+joblib==1.4.2
+
+# Deployment (FastAPI)
+fastapi==0.111.0
+uvicorn==0.29.0
+pydantic==2.7.1
+
+# CI/CD and Linting
+flake8==7.0.0
+black==24.4.2
+
+# Testing
+pytest==8.2.1
+
+# Jupyter Support
+notebook==7.2.0
+ipykernel==6.29.4
+
+# Clustering & Preprocessing
+scipy==1.13.1
+plotly==5.22.0
+
+# Explainability (optional)
+shap==0.45.1
