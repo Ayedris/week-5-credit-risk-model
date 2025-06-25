@@ -1,0 +1,10 @@
+# Ignore data folders
+data/raw/
+data/processed/
+
+# Jupyter checkpoints
+**/.ipynb_checkpoints
+
+# System files
+.DS_Store
+Thumbs.db
