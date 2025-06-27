@@ -9,3 +9,10 @@ services:
       - .:/app
     environment:
       - ENV=production
+    command: uvicorn src.api.main:app --host 0.0.0.0 --port 8000
+
+  credit-risk-pipeline:
+    build: .
+    volumes:
+      - .:/app
+    command: python src/data_processing.py
