@@ -16,8 +16,11 @@ services:
     volumes:
       - .:/app
     command: python src/data_processing.py
+<<<<<<< HEAD
 credit-risk-target:
   build: .
   volumes:
     - .:/app
   command: python src/target_engineering.py
+=======
+>>>>>>> 5e10476245091a457d2a9e29d1609e1221d0a8d8
